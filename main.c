@@ -6,7 +6,7 @@
 int main(){
     while (1)
     {
-        sleep(WORK_TIME_IN_MIN);
+        sleep(WORK_TIME_IN_MIN * 60);
         main_loop(BREAK_TIME_IN_MIN * 60) ;
     }
     

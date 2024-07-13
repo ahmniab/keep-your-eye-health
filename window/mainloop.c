@@ -1,5 +1,6 @@
 #include "mainloop.h"
 #include "raylib.h"
+#include <stdlib.h>
 
 #define SCREEN_H 1080
 #define SCREEN_W 1920
@@ -58,6 +59,13 @@ void main_loop(float live_time){
 
         if(IsKeyPressed(KEY_S)){
             TakeScreenshot("screenshot.png");
+        }
+
+        if((IsKeyDown(KEY_LEFT_CONTROL ) || IsKeyDown(KEY_RIGHT_CONTROL)) && IsKeyDown(KEY_X)){
+            UnloadFont(main_font);
+            UnloadTexture(photo); 
+            CloseWindow();
+            exit(0);
         }
 
     }
