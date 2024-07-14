@@ -12,9 +12,7 @@ You can take a screenshot to the close window by pressing `S` key
 
 # Version 1.0.0
 
-The portable version (Windows OS) is from **[here](out/keep_your_eye_health_windows_portable.zip)** (Recommended)
-</br>
-You can download the windows verions from **[here](out/keep_your_eye_health_Windows.zip)**
+The portable version (Windows OS) is from **[here](https://github.com/ahmniab/keep-your-eye-health/releases/tag/keep-1)** (Recommended)
 </br>
 
 The linux version will publish soon 
