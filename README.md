@@ -11,7 +11,11 @@ You can take a screenshot to the close window by pressing `S` key
 **Have fun**
 
 # Version 1.0.0
+
+The portable version is from **[here](out/keep_your_eye_health_windows_portable.zip)** (Recommended)
+</br>
 You can download the windows verions from **[here](out/keep_your_eye_health_Windows.zip)**
 </br>
+
 The linux version will publish soon 
 

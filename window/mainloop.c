@@ -1,12 +1,13 @@
 #include "mainloop.h"
 #include "raylib.h"
 #include <stdlib.h>
+#include "looking_hell.h"
+#include "Montserrat_MediumItalic_font.h"
 
 #define SCREEN_H 1080
 #define SCREEN_W 1920
 
 #define BACKGROUND CLITERAL(Color){ 86, 147, 175, 255 }
-#define BALL_IMG "window/assets/imgs/looking_hell.png"
 
 
 float full_time  ;
@@ -30,11 +31,14 @@ void main_loop(float live_time){
     SetTargetFPS(60);
     SetWindowState(FLAG_FULLSCREEN_MODE);
 
-    Texture2D photo = LoadTexture(BALL_IMG);
+    Image look_image = LoadImageFromMemory(".png", LOOKING_DATA,LOOKING_SIZE); 
+    Texture2D photo = LoadTextureFromImage(look_image);
     Vector2 img_pos = {550 , 10};
     img_pos.x = SCREEN_W /2 - (photo.width /2 *0.5f);
 
-    Font main_font = LoadFont("window/assets/fonts/Montserrat_MediumItalic.ttf");
+    
+
+    Font main_font = LoadFontFromMemory(".ttf", MAIN_FONT_DATA, MAIN_FONT_SIZE, 150, NULL, 0);
 
 
     while (!WindowShouldClose())
@@ -72,6 +76,7 @@ void main_loop(float live_time){
 
     }
 
+    UnloadImage(look_image);
     UnloadFont(main_font);
     UnloadTexture(photo); 
     CloseWindow();

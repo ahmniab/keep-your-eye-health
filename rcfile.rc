@@ -13,7 +13,7 @@ BEGIN
       VALUE "FileDescription", "keep your eye health"
       VALUE "FileVersion", "1.0.0"
       VALUE "InternalName", "keep your eye health"
-      //VALUE "LegalCopyright", "(c) 2023 Ramon Santamaria (@raysan5)"
+      VALUE "LegalCopyright", "(c) 2024 Ahmed Nabil"
       //VALUE "OriginalFilename", "keep your eye health.exe"
       VALUE "ProductName", "keep your eye health"
       VALUE "ProductVersion", "1.0.0"
