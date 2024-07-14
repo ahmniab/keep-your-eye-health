@@ -60,6 +60,7 @@ void main_loop(float live_time){
         if(IsKeyPressed(KEY_S)){
             Image screen_img = LoadImageFromScreen();
             ExportImage(screen_img , "screenshot.png");
+            UnloadImage(screen_img);
         }
 
         if((IsKeyDown(KEY_LEFT_CONTROL ) || IsKeyDown(KEY_RIGHT_CONTROL)) && IsKeyDown(KEY_X)){

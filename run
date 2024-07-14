@@ -1,4 +1,6 @@
 #!/bin/bash
 
-/C/raylib/w64devkit/bin/gcc.exe -o main.exe main.c window/mainloop.c /C/raylib/raylib/src/raylib.rc.data -s -static -Os -std=c99 -Wall -I/C/raylib/raylib/src -Iexternal -DPLATFORM_DESKTOP -lraylib -lopengl32 -lgdi32 -lwinmm #-mwindows
-./main
+# /C/raylib/w64devkit/bin/gcc.exe -o main.exe main.c window/mainloop.c /C/raylib/raylib/src/raylib.rc.data -s -static -Os -std=c99 -Wall -I/C/raylib/raylib/src -Iexternal -DPLATFORM_DESKTOP -lraylib -lopengl32 -lgdi32 -lwinmm #-mwindows
+# ./main
+/C/raylib/w64devkit/bin/gcc.exe -o keep.exe main.c window/mainloop.c rcfile.data -s -static -Os -std=c99 -Wall -I/C/raylib/raylib/src -Iexternal -DPLATFORM_DESKTOP -lraylib -lopengl32 -lgdi32 -lwinmm -mwindows
+# ./reminder
