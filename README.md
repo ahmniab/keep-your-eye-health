@@ -5,7 +5,7 @@
 ## important details
 The app will close your screen every 25 minuts (the app does not run close your screen infrist time )</br>
 You can escape this close if its by pressing `Esc` key </br>
-You can stop the entire program by pressing `Ctrl + x` win the close window is running</br>
+You can stop the entire program by pressing `Ctrl + x` when the close window is running</br>
 You can take a screenshot to the close window by pressing `S` key 
 
 **Have fun**
