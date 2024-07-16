@@ -10,10 +10,20 @@ You can take a screenshot to the close window by pressing `S` key
 
 **Have fun**
 
-# Version 1.0.0
+## Version 1.0.0
 
 The portable version (Windows OS) is from **[here](https://github.com/ahmniab/keep-your-eye-health/releases/tag/keep-1)** (Recommended)
 </br>
 
 The linux version will publish soon 
 
+## Open in startup
+### Windows
+<ol>
+    <li>Make a shortcut to app</li>
+    <li>Copy the shortcut </li>
+    <li>
+        With the file location open, press the `Windows logo key + R` , type `shell: startup`, then select OK. This opens the Startup folder.
+    </li>
+    <li>paste the shortcut to the app to the Startup folder. </li>
+</ol>
