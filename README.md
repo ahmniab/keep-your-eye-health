@@ -21,9 +21,10 @@ The linux version will publish soon
 ### Windows
 <ol>
     <li>Make a shortcut to app</li>
-    <li>Copy the shortcut </li>
+    <li>Copy the shortcut</li>
     <li>
-        With the file location open, press the `Windows logo key + R` , type `shell: startup`, then select OK. This opens the Startup folder.
+        With the file location open, press the <code>Windows logo key + R</code>, type <code>shell:startup</code>, then select OK. This opens the Startup folder.
     </li>
-    <li>paste the shortcut to the app to the Startup folder. </li>
+    <li>Paste the shortcut to the app into the Startup folder.</li>
 </ol>
+
